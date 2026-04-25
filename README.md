@@ -42,24 +42,24 @@ s.n. dasgupta
 ### Display the content of the files
 cat < file1
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20103831.png)
 
 
 cat < file2
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20104955.png)
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105157.png)
 comm file1 file2
  ## OUTPUT
 
- 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105303.png)
 diff file1 file2
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105337.png)
 
 #Filters
 
