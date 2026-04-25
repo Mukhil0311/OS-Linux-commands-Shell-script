@@ -22,10 +22,10 @@ Testing the commands for the desired output.
 
 # COMMANDS:
 
-'''
+```
 DEVELOPED BY : MUKHIL S
 REGISTER NUMBER : 212225040263
-'''
+```
 ### Create the following files file1, file2 as follows:
 cat > file1
 ```
