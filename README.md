@@ -21,6 +21,11 @@ Execute the following commands
 Testing the commands for the desired output. 
 
 # COMMANDS:
+
+'''
+DEVELOPED BY : MUKHIL S
+REGISTER NUMBER : 212225040263
+'''
 ### Create the following files file1, file2 as follows:
 cat > file1
 ```
@@ -352,8 +357,106 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+```
+Desktop/
+Desktop/README.license
+Documents/
+Downloads/
+file1
+file11
+file2
+file21
+file22
+file23
+Music/
+newfile
+os/
+os/ex01/
+os/ex01/OS-Linux-commands-Shell-script/
+os/ex01/OS-Linux-commands-Shell-script/.git/
+os/ex01/OS-Linux-commands-Shell-script/.git/branches/
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/applypatch-msg.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/commit-msg.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/fsmonitor-watchman.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/post-update.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-applypatch.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-commit.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-merge-commit.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-push.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-rebase.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-receive.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/prepare-commit-msg.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/push-to-checkout.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/update.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/info/
+os/ex01/OS-Linux-commands-Shell-script/.git/info/exclude
+os/ex01/OS-Linux-commands-Shell-script/.git/description
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/heads/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/heads/main
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/tags/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/origin/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/origin/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/pack-c6c131cc2900889c159162c4e1042485acd5de62.pack
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/pack-c6c131cc2900889c159162c4e1042485acd5de62.idx
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/info/
+os/ex01/OS-Linux-commands-Shell-script/.git/packed-refs
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/origin/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/origin/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/heads/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/heads/main
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/config
+os/ex01/OS-Linux-commands-Shell-script/.git/index
+os/ex01/OS-Linux-commands-Shell-script/LICENSE
+os/ex01/OS-Linux-commands-Shell-script/README.md
+os/ex01/OS-Linux-commands-Shell-script/file2
+os/ex01/OS-Linux-commands-Shell-script/file1
+Pictures/
+Public/
+Templates/
+Templates/prog/
+Templates/prog/ObjC.m
+Templates/prog/assembly.asm
+Templates/prog/bash-sh.sh
+Templates/prog/c#.cs
+Templates/prog/c++.cpp
+Templates/prog/c.c
+Templates/prog/falcon.fal
+Templates/prog/golang.go
+Templates/prog/header.h
+Templates/prog/java.java
+Templates/prog/nim.nim
+Templates/prog/perl.pl
+Templates/prog/perl6.pl
+Templates/prog/perlModule.pm
+Templates/prog/python3.py
+Templates/prog/ruby.rb
+Templates/prog/rust.rs
+Templates/prog/shellcode.s
+Templates/text/
+Templates/text/document.odt
+Templates/text/plaintext.txt
+Templates/text/presentation.odp
+Templates/text/spreadsheet.ods
+Templates/web/
+Templates/web/css.css
+Templates/web/html.html
+Templates/web/javascript.js
+Templates/web/php.php
+Templates/web/xml.xml
+urllist.txt
+Videos/
 
-
+```
 mkdir backupdir
  
 mv backup.tar backupdir
@@ -362,19 +465,208 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
-
+```
+drwxr-xr-x mukhil/mukhil     0 2026-04-23 16:50 Desktop/
+-rwxr-xr-x mukhil/mukhil  2107 2026-04-23 16:50 Desktop/README.license
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:24 Documents/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:24 Downloads/
+-rw-r--r-- mukhil/mukhil    61 2026-04-25 07:01 file1
+-rw-r--r-- mukhil/mukhil    29 2026-04-25 07:26 file11
+-rw-r--r-- mukhil/mukhil    70 2026-04-25 07:04 file2
+-rw-r--r-- mukhil/mukhil   131 2026-04-25 08:16 file21
+-rw-r--r-- mukhil/mukhil   155 2026-04-25 08:17 file22
+-rw-r--r-- mukhil/mukhil   210 2026-04-25 08:04 file23
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:24 Music/
+-rw-r--r-- mukhil/mukhil    96 2026-04-25 07:43 newfile
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:31 os/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:52 os/ex01/OS-Linux-commands-Shell-script/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/branches/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/
+-rwxr-xr-x mukhil/mukhil   478 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/applypatch-msg.sample
+-rwxr-xr-x mukhil/mukhil   896 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/commit-msg.sample
+-rwxr-xr-x mukhil/mukhil  4726 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/fsmonitor-watchman.sample
+-rwxr-xr-x mukhil/mukhil   189 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/post-update.sample
+-rwxr-xr-x mukhil/mukhil   424 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-applypatch.sample
+-rwxr-xr-x mukhil/mukhil  1643 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-commit.sample
+-rwxr-xr-x mukhil/mukhil   416 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-merge-commit.sample
+-rwxr-xr-x mukhil/mukhil  1374 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-push.sample
+-rwxr-xr-x mukhil/mukhil  4898 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-rebase.sample
+-rwxr-xr-x mukhil/mukhil   544 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-receive.sample
+-rwxr-xr-x mukhil/mukhil  1492 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/prepare-commit-msg.sample
+-rwxr-xr-x mukhil/mukhil  2783 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/push-to-checkout.sample
+-rwxr-xr-x mukhil/mukhil  3650 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/hooks/update.sample
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/info/
+-rw-r--r-- mukhil/mukhil   240 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/info/exclude
+-rw-r--r-- mukhil/mukhil    73 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/description
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/heads/
+-rw-r--r-- mukhil/mukhil    41 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/heads/main
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/tags/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/origin/
+-rw-r--r-- mukhil/mukhil    30 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/origin/HEAD
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/objects/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/
+-r--r--r-- mukhil/mukhil 35706 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/pack-c6c131cc2900889c159162c4e1042485acd5de62.pack
+-r--r--r-- mukhil/mukhil  2444 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/pack-c6c131cc2900889c159162c4e1042485acd5de62.idx
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/objects/info/
+-rw-r--r-- mukhil/mukhil   112 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/packed-refs
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/origin/
+-rw-r--r-- mukhil/mukhil   206 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/origin/HEAD
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/heads/
+-rw-r--r-- mukhil/mukhil   206 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/heads/main
+-rw-r--r-- mukhil/mukhil   206 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/logs/HEAD
+-rw-r--r-- mukhil/mukhil    21 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/HEAD
+-rw-r--r-- mukhil/mukhil   281 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/config
+-rw-r--r-- mukhil/mukhil   209 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/.git/index
+-rw-r--r-- mukhil/mukhil 35149 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/LICENSE
+-rw-r--r-- mukhil/mukhil 14116 2026-04-24 07:47 os/ex01/OS-Linux-commands-Shell-script/README.md
+-rw-r--r-- mukhil/mukhil     0 2026-04-24 07:52 os/ex01/OS-Linux-commands-Shell-script/file2
+-rw-r--r-- mukhil/mukhil     0 2026-04-24 07:52 os/ex01/OS-Linux-commands-Shell-script/file1
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:24 Pictures/
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:24 Public/
+drwxr-xr-x mukhil/mukhil     0 2026-04-23 16:50 Templates/
+drwxr-xr-x mukhil/mukhil     0 2026-04-23 16:50 Templates/prog/
+-rwxr-xr-x mukhil/mukhil   233 2026-04-23 16:50 Templates/prog/ObjC.m
+-rwxr-xr-x mukhil/mukhil   239 2026-04-23 16:50 Templates/prog/assembly.asm
+-rwxr-xr-x mukhil/mukhil    45 2026-04-23 16:50 Templates/prog/bash-sh.sh
+-rwxr-xr-x mukhil/mukhil   114 2026-04-23 16:50 Templates/prog/c#.cs
+-rwxr-xr-x mukhil/mukhil   110 2026-04-23 16:50 Templates/prog/c++.cpp
+-rwxr-xr-x mukhil/mukhil   106 2026-04-23 16:50 Templates/prog/c.c
+-rwxr-xr-x mukhil/mukhil    53 2026-04-23 16:50 Templates/prog/falcon.fal
+-rwxr-xr-x mukhil/mukhil    87 2026-04-23 16:50 Templates/prog/golang.go
+-rwxr-xr-x mukhil/mukhil    74 2026-04-23 16:50 Templates/prog/header.h
+-rwxr-xr-x mukhil/mukhil   135 2026-04-23 16:50 Templates/prog/java.java
+-rwxr-xr-x mukhil/mukhil    19 2026-04-23 16:50 Templates/prog/nim.nim
+-rwxr-xr-x mukhil/mukhil    52 2026-04-23 16:50 Templates/prog/perl.pl
+-rwxr-xr-x mukhil/mukhil    50 2026-04-23 16:50 Templates/prog/perl6.pl
+-rwxr-xr-x mukhil/mukhil    20 2026-04-23 16:50 Templates/prog/perlModule.pm
+-rwxr-xr-x mukhil/mukhil    54 2026-04-23 16:50 Templates/prog/python3.py
+-rwxr-xr-x mukhil/mukhil    49 2026-04-23 16:50 Templates/prog/ruby.rb
+-rwxr-xr-x mukhil/mukhil    56 2026-04-23 16:50 Templates/prog/rust.rs
+-rwxr-xr-x mukhil/mukhil   825 2026-04-23 16:50 Templates/prog/shellcode.s
+drwxr-xr-x mukhil/mukhil     0 2026-04-23 16:50 Templates/text/
+-rwxr-xr-x mukhil/mukhil  7782 2026-04-23 16:50 Templates/text/document.odt
+-rwxr-xr-x mukhil/mukhil     0 2026-04-23 16:50 Templates/text/plaintext.txt
+-rwxr-xr-x mukhil/mukhil 25371 2026-04-23 16:50 Templates/text/presentation.odp
+-rwxr-xr-x mukhil/mukhil  6662 2026-04-23 16:50 Templates/text/spreadsheet.ods
+drwxr-xr-x mukhil/mukhil     0 2026-04-23 16:50 Templates/web/
+-rw-r--r-- mukhil/mukhil    45 2026-04-23 16:50 Templates/web/css.css
+-rwxr-xr-x mukhil/mukhil   109 2026-04-23 16:50 Templates/web/html.html
+-rw-r--r-- mukhil/mukhil     0 2026-04-23 16:50 Templates/web/javascript.js
+-rwxr-xr-x mukhil/mukhil    10 2026-04-23 16:50 Templates/web/php.php
+-rwxr-xr-x mukhil/mukhil    12 2026-04-23 16:50 Templates/web/xml.xml
+-rw-r--r-- mukhil/mukhil    52 2026-04-25 08:21 urllist.txt
+drwxr-xr-x mukhil/mukhil     0 2026-04-24 07:24 Videos/
+```
 
 tar -xvf backup.tar
 ## OUTPUT
+```
+Desktop/
+Desktop/README.license
+Documents/
+Downloads/
+file1
+file11
+file2
+file21
+file22
+file23
+Music/
+newfile
+os/
+os/ex01/
+os/ex01/OS-Linux-commands-Shell-script/
+os/ex01/OS-Linux-commands-Shell-script/.git/
+os/ex01/OS-Linux-commands-Shell-script/.git/branches/
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/applypatch-msg.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/commit-msg.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/fsmonitor-watchman.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/post-update.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-applypatch.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-commit.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-merge-commit.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-push.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-rebase.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/pre-receive.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/prepare-commit-msg.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/push-to-checkout.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/hooks/update.sample
+os/ex01/OS-Linux-commands-Shell-script/.git/info/
+os/ex01/OS-Linux-commands-Shell-script/.git/info/exclude
+os/ex01/OS-Linux-commands-Shell-script/.git/description
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/heads/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/heads/main
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/tags/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/origin/
+os/ex01/OS-Linux-commands-Shell-script/.git/refs/remotes/origin/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/pack-c6c131cc2900889c159162c4e1042485acd5de62.pack
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/pack/pack-c6c131cc2900889c159162c4e1042485acd5de62.idx
+os/ex01/OS-Linux-commands-Shell-script/.git/objects/info/
+os/ex01/OS-Linux-commands-Shell-script/.git/packed-refs
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/origin/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/remotes/origin/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/heads/
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/refs/heads/main
+os/ex01/OS-Linux-commands-Shell-script/.git/logs/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/HEAD
+os/ex01/OS-Linux-commands-Shell-script/.git/config
+os/ex01/OS-Linux-commands-Shell-script/.git/index
+os/ex01/OS-Linux-commands-Shell-script/LICENSE
+os/ex01/OS-Linux-commands-Shell-script/README.md
+os/ex01/OS-Linux-commands-Shell-script/file2
+os/ex01/OS-Linux-commands-Shell-script/file1
+Pictures/
+Public/
+Templates/
+Templates/prog/
+Templates/prog/ObjC.m
+Templates/prog/assembly.asm
+Templates/prog/bash-sh.sh
+Templates/prog/c#.cs
+Templates/prog/c++.cpp
+Templates/prog/c.c
+Templates/prog/falcon.fal
+Templates/prog/golang.go
+Templates/prog/header.h
+Templates/prog/java.java
+Templates/prog/nim.nim
+Templates/prog/perl.pl
+Templates/prog/perl6.pl
+Templates/prog/perlModule.pm
+Templates/prog/python3.py
+Templates/prog/ruby.rb
+Templates/prog/rust.rs
+Templates/prog/shellcode.s
+Templates/text/
+Templates/text/document.odt
+Templates/text/plaintext.txt
+Templates/text/presentation.odp
+Templates/text/spreadsheet.ods
+Templates/web/
+Templates/web/css.css
+Templates/web/html.html
+Templates/web/javascript.js
+Templates/web/php.php
+Templates/web/xml.xml
+urllist.txt
+Videos/
 
-gzip backup.tar
-
-ls .gz
-## OUTPUT
- 
-gunzip backup.tar.gz
-## OUTPUT
-
+```
  
 # Shell Script
 ```
@@ -384,7 +676,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20174134.png)
  
 cat << stop > herecheck.txt
 ```
@@ -396,7 +688,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20174252.png)
 
 cat < scriptest.sh 
 ```bash
@@ -428,30 +720,29 @@ echo 'The $\# is ' $\#
 echo 'The $$ is ' $$
 ps
 ```
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20174658.png)
  
 chmod 777 scriptest.sh
  
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20174744.png)
  
 ls file1
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20174838.png)
+
 
 echo $?
 ## OUTPUT 
-./one
-bash: ./one: Permission denied
- 
-echo $?
-## OUTPUT 
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20174932.png)
  
 abcd
  
 echo $?
  ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20175012.png)
 
  
 # mis-using string comparisons
@@ -483,14 +774,14 @@ echo "$val1 is less than $val2"
 fi
 ```
 ##OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20175352.png)
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20175440.png)
 
 # check file ownership
 cat < psswdperm.sh 
@@ -515,8 +806,9 @@ else
 echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
-./psswdperm.sh
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20175717.png)
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -563,7 +855,7 @@ fi
 
 ./ifnested.sh 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20175854.png)
 
 
 # using numeric test comparisons
@@ -607,6 +899,8 @@ $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20180015.png)
+
 
 # check if a file
 cat > ifnested.sh 
@@ -656,6 +950,8 @@ $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20180106.png)
+
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -684,7 +980,7 @@ $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20180537.png)
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -700,6 +996,8 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20180641.png)
+
 
 # using the case command
 cat >casecheck.sh 
@@ -719,6 +1017,8 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20180750.png)
+
  
 cat > whiletest
 ```bash
@@ -734,6 +1034,7 @@ done
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20180856.png)
  
  
 cat untiltest.sh 
@@ -747,7 +1048,7 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20181008.png)
  
  
 cat forin1.sh 
@@ -761,20 +1062,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
- 
-cat forin2.sh 
-```bash
-\#!/bin/bash
-\# another example of how not to use the for command
-for test in I don't know if this'll work
-do
-echo “word:$test”
-done
- ```
- 
-$ chmod 755 forin2.sh
- 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20181118.png)
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -787,6 +1076,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20181216.png)
+
  
 cat forin3.sh 
 ```bash
@@ -799,40 +1090,8 @@ done
 ```
 $ ./forin3.sh 
  
-cat forin1.sh 
-```bash
-#!/bin/bash
-# basic for command
-for test in Alabama Alaska Arizona Arkansas California Colorado
-do
-echo The next state is $test
-done
-```
-$ chmod 755 forin1.sh
-
 ## OUTPUT
-cat forinfile.sh 
-```bash
-#!/bin/bash
-# reading values from a file
-file="cities"
-for state in `cat $file`
-do
-echo "Visit beautiful $file“
-done
-```
-$ chmod 777 forinfile.sh
-$ cat cities
-Hyderabad
-Alampur
-Basara
-Warangal
-Adilabad
-Bhadrachalam
-Khammam
-
-## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20181725.png)
 
 cat forctype.sh 
 ```bash
@@ -846,6 +1105,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20182159.png)
+
 
 cat forctype1.sh 
 ```bash
@@ -859,6 +1120,8 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20182255.png)
+
 
 cat fornested1.sh 
 ```bash
@@ -877,6 +1140,7 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20182345.png)
 
  
 cat forbreak.sh 
@@ -894,32 +1158,9 @@ done
 echo "The for loop is completed“
 ```
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20182530.png)
 
-$ chmod 755 forbreak.sh
- 
-$ ./forbreak.sh 
- 
-cat forbreak.sh 
-```bash
-#!/bin/bash
-# breaking out of a for loop
-for var1 in 1 2 3 4 5
-do
-if [ $var1 -eq 3 ]
-then
-continue
-fi
-echo "Iteration number: $var1"
-done
-echo "The for loop is completed“
-```
 
- 
-$ chmod 755 forcontinue.sh
- 
-$ ./forcontinue.sh 
-## OUTPUT
- 
 cat exread.sh 
 ```bash
 #!/bin/bash
@@ -933,22 +1174,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20182704.png)
 
-
- cat exread1.sh
-```bash
-#!/bin/bash
-# testing the read command
-read -p "Enter your name: " name
-echo "Hello $name, welcome to my program. “
-``` 
-$ chmod 755 exread1.sh 
-
-## OUTPUT
-
-
-
-$ ./exread1.sh 
  
 cat funcex.sh
 ```bash
@@ -967,10 +1194,7 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
- 
- ./funcex.sh 1 2
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20182914.png)
  
 cat argshift.sh
 ```bash
@@ -984,6 +1208,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20183051.png)
+
  
  cat argshift1.sh
 ```bash
@@ -1001,20 +1227,7 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- 
-cat argshift.sh
-```bash
-#!/bin/bash 
-set -x 
-while (( "$#" )); do 
-  echo $1 
-  shift 
-done
-set +x
-```
-## OUTPUT
- ./argshift.sh 1 2 3
- 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20183215.png)
  
 cat > nc.awk
 ```bash
@@ -1045,6 +1258,7 @@ ubcdfghj
 ```
 awk -f nc.awk data.dat
 ## OUTPUT 
+ ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20183422.png)
  
 cat > palindrome.sh
 ```bash
@@ -1072,7 +1286,7 @@ else
 fi
 ```
 ## OUTPUT 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20183604.png)
 
 # RESULT:
 The Commands are executed successfully.
