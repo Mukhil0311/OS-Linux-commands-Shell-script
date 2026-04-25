@@ -53,10 +53,12 @@ cat < file2
 cmp file1 file2
 ## OUTPUT
  ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105157.png)
+ 
 comm file1 file2
  ## OUTPUT
 
  ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105303.png)
+ 
 diff file1 file2
 ## OUTPUT
 ![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105337.png)
@@ -83,17 +85,17 @@ cat > file22
 cut -c1-3 file11
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105806.png)
 
 
 cut -d "|" -f 1 file22
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105924.png)
 
 cut -d "|" -f 2 file22
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20105845.png)
 
 cat < newfile 
 ```
@@ -107,30 +109,30 @@ hello world
  
 grep Hello newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20110303.png)
 
 
 grep hello newfile 
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20110401.png)
 
 
 grep -v hello newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20110448.png)
 
 
 cat newfile | grep -i "hello"
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20110518.png)
 
 
 cat newfile | grep -i -c "hello"
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20110551.png)
 
 
 grep -R ubuntu /etc
@@ -140,7 +142,7 @@ grep -R ubuntu /etc
 
 grep -w -n world newfile   
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20110728.png)
 
 cat < newfile 
 ```
@@ -163,60 +165,57 @@ Linux is best in this World
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111500.png)
 
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111530.png)
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111556.png)
 
 
 egrep '(^hello)' newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111714.png)
 
 
 egrep '(world$)' newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111751.png)
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111811.png)
 
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20111909.png)
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113009.png)
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
-
-
-egrep 'Linux.*World' newfile 
-## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113045.png)
 
 
 egrep l{2} newfile
 ## OUTPUT
 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113121.png)
 
 egrep 's{1,2}' newfile
 ## OUTPUT 
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113136.png)
 
 cat > file23
 ```
@@ -234,79 +233,63 @@ cat > file23
 
 sed -n -e '3p' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113425.png)
 
 
 sed -n -e '$p' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113443.png)
 
 
 sed  -e 's/Ram/Sita/' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113502.png)
 
 
 sed  -e '2s/Ram/Sita/' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113537.png)
 
 
 sed  '/tom/s/5000/6000/' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113554.png)
 
 
 sed -n -e '1,5p' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113615.png)
 
 
 sed -n -e '2,/Joe/p' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113631.png)
 
 
 
 sed -n -e '/tom/,/Joe/p' file23
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113651.png)
 
 
 seq 10 
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20113726.png)
 
 
 seq 10 | sed -n '4,6p'
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20114213.png)
 
 
 seq 10 | sed -n '2,~4p'
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20114246.png)
 
 
 seq 3 | sed '2a hello'
 ## OUTPUT
-
-
-
-seq 2 | sed '2i hello'
-## OUTPUT
-
-
-seq 10 | sed '2,9c hello'
-## OUTPUT
-
-
-sed -n '2,4{s/^/$/;p}' file23
-## OUTPUT
-
-
-
-sed -n '2,4{s/$/*/;p}' file23
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20114345.png)
 
 
 #Sorting File content
@@ -320,7 +303,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20114659.png)
 
 cat > file22
 ```
@@ -333,13 +316,15 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20114746.png)
 
 
 #Using tr command
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20114816.png)
+
 
 cat < urllist.txt
 ```
@@ -356,12 +341,12 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20115125.png)
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
-
+![image](https://github.com/Mukhil0311/OS-Linux-commands-Shell-script/blob/main/Screenshot%202026-04-25%20115145.png)
 
 
 #Backup commands
